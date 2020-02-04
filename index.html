@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon: Special Defense vs Total Stats</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+  </head>
+  <body>
+    <script src="pokeman.js"></script>
+    <div id="right">
+        <p>Generation:</p>
+        <select id="generation">
+            <option value="All">All</option>
+            <option value="1">1</option>
+            <option value="2">2</option> 
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option> 
+            <option value="6">6</option>
+        </select>
+        <p>Lengendary:</p>
+        <select id="legendary">
+            <option value="All">All</option>
+            <option value="True">True</option>
+            <option value="False">False</option>
+        </select>
+    </div>
+    <div class='my-legend'>
+        <div class='legend-title'>The Title or Explanation of your Map</div>
+        <div class='legend-scale'>
+          <ul class='legend-labels'>
+            <li><span style='background:#4E79A7;'></span>Bug</li>
+            <li><span style='background:#A0CBE8;'></span>Dark</li>
+            <li><span style='background:#F28E2B;'></span>Electric</li>
+            <li><span style='background:#FFBE7D;'></span>Fairy</li>
+            <li><span style='background:#59A14F;'></span>Fighting</li>
+            <li><span style='background:#8CD17D;'></span>Fire</li>
+            <li><span style='background:#B6992D;'></span>Ghost</li>
+            <li><span style='background:#499894;'></span>Grass</li>
+            <li><span style='background:#86BCB6;'></span>Ground</li>
+            <li><span style='background:#FABFD2;'></span>Ice</li>
+            <li><span style='background:#E15759;'></span>Normal</li>
+            <li><span style='background:#FF9D9A;'></span>Poison</li>
+            <li><span style='background:#79706E;'></span>Psychic</li>
+            <li><span style='background:#BAB0AC;'></span>Steel</li>
+            <li><span style='background:#D37295;'></span>Water</li>
+          </ul>
+        </div>
+  </body>
+  
+</html>
